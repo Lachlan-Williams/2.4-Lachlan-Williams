@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- declaration is used to inform a website visitor's browser that the document being rendered is an HTML document -->
+<html lang="en"> <!-- specifies the language used is english -->
+<head> <!-- opens container for metadata --> 
+	<meta charset="utf-8"> <!-- specifies the character encoding for the HTML document -->
+	<title>Aspinall</title> <!-- defines the title of the document -->
+	<link href="style.css" rel="stylesheet" type="text/css"> <!-- links index page to stylesheet -->
+	<meta content="width=device-width, initial-scale=1" name="viewport"> <!-- sets width of the page to the screen-width of the device, sets the initial zoom level -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!-- links index page to external stylesheet, allows fa fa bars to work -->
+	
+</head> <!-- closes metadata container -->
+<body> <!-- start of content container -->
+	<div class="topnav" id="myTopnav">
+		<img alt="Aspinall Logo" src="Images/aspinall_logo.png"> <a href="house_leaders.html">House Leaders</a> <a href="about.html">John Aspinall</a> <a href="results.html">Results</a> <a class="active" href="index.html">Home</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+	<div class="main_content">
+		<div class="header">
+			<h1 class="hr">Our Houses</h1>
+		</div>
+		<p>In 2012 Otago Boys’ High School embarked on a journey to create four Houses in our school. The benefits of the House system; competition, humour, participation, comradery and energy encapsulate the fun of being an OB’s boy.</p> <!-- paragraph -->
+		<p>In 2016 we reconstructed the form system to align with the houses. Each OBHS boy is placed into a house and vertical form where he will stay for 5 years. This adds to the spirit of the house, but more importantly it has broken down the barriers between junior and senior students and strengthened their brotherhood. Mr Richard Dougherty, Head of Design and Visual Communication, designed a crest and banner for each house in 2014. The banners now hang in the Maurice Joel Theatre.</p> <!-- paragraph -->
+		<p>Why did we change the structure of form time? Secondary schools are big places. Students can get lost and sometimes struggle to fit in. The House system seeks to resolve this.</p> <!-- paragraph -->
+		<div class="header">
+			<h2 class="hr">The purpose of the House/Vertical Form system at OBHS is to:</h2>
+		</div>
+		<ul> <!-- start of unordered list -->
+			<li class="list_item_header">For Students</li> 
+			<li>Provide students with a strong identity/place to belong- (turangawaewae)</li> <!-- List item -->
+			<li>Enhance and build school culture through healthy competition/activities</li> <!-- List item -->
+			<li>Develop a strong tuakana/teina model- brotherhood</li> <!-- List item -->
+			<li>Values Focus- Respect, Fairness, Integrity, Excellence</li> <!-- List item -->
+			<li>Provide leadership opportunities for senior students</li> <!-- List item -->
+			<li class="list_item_header">For Staff</li>
+			<li>Create a connection point to build meaningful relationships with students and develop culturally responsive and relational pedagogy</li> <!-- List item -->
+			<li>Grow leadership through House Leaders, Deputy House leaders and Form teachers</li> <!-- List item -->
+			<li>Provide academic coaching and tracking for students</li> <!-- List item --> <!-- List item -->
+			<li>Grow Professional Learning Communities through cross curricular connections</li> <!-- List item -->
+		</ul> <!-- end of unordered list -->
+		<div class="header">
+			<h2 class="hr">Recognition of our key values:</h2>
+		</div>In 2019, our new Deputy Rector in charge of school culture, Andy King created a new initiative to help promote student success and our school values. Every teacher can assign a point to students based off our school values:
+		<ul class="inline_list"> 
+			<li>Respect</li> <!-- List item -->
+			<li>Honour</li> <!-- List item -->
+			<li>Excellence</li> <!-- List item -->
+			<li>Perseverance</li> <!-- List item --> 
+			<li>Courage</li> <!-- List item -->
+		</ul> <!-- end of unordered list -->
+		<p>The results are live on the KAMAR portal and students and parents can view the top students for each house.</p> <!-- paragraph -->
+		<p>View the current house points here <a href="https://portal.obhs.school.nz/house_competition">https://portal.obhs.school.nz/house_competition</a></p><!-- paragraph, link to current house points -->
+	</div>
+	<div class="footer">
+		<div id="footer_container">
+			<figure>
+				<a href="https://obhs.school.nz/" target="_blank"><img alt="OBHS Main Website" src="Images/obhs_logo.png"></a>
+			</figure>
+			<figure>
+				<a href="https://www.facebook.com/OtagoBoysHighSchool/" target="_blank"><img alt="Facebook logo" src="Images/facebook-circular-.png"></a>
+			</figure>
+		</div>
+		<p><a class="active" href="index.html">Home</a> | <a href="results.html">Results</a> | <a href="about.html">John Aspinall</a> | <a href="house_leaders.html">House Leaders</a></p> <!-- paragraph -->
+		<p>Site developed and maintained by Lachlan Williams copyright 2020</p> <!-- paragraph -->
+		</div> <!-- end of footer -->
+	<!-- start of script that allows js to activate --><script src="nav_bar.js">
+	</script> <!-- end of script -->
+</body> <!-- end of content container -->
+</html> <!--end of html -->
